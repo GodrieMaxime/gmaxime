@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui,  user-scalable=0;">
+	<meta charset="UTF-8">
+	<title>TapMinute</title>
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/main.css">
+
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.6.1/less.min.js"></script>
+</head>
+<body>
+	<div class="main-wrapper box">
+	    <div class="instructions-wrapper">
+	      <div class="instructions-inner-wrapper " >
+	           <a href="#" class="jq-close-button close-button"><i class="fa fa-times"></i></a>
+	           <h1>Instructions</h1>
+	           <p>Tap and swipe until you run out of time.</p>
+	           <p>The closer from 0 you tap the more point you earn, staying on 1 makes you earn 10 points per right action ! Take some risks or play safem the choice is yours.</p>
+	           <p>If you miss, the clock removes 1 second, otherwise it will add 1 second.</p>
+	           <p>
+	                Tap <i class="fa fa-hand-o-up pulse"></i> <br>
+	                Double Tap <i class="fa fa-hand-o-up pulse"></i>X2 <br>
+	                Swipe Right <i class="fa fa-hand-o-right pulse"></i> <br>
+	                Swipe Left <i class="fa fa-hand-o-left pulse"></i> <br>
+	           </p>
+	       </div>
+	    </div>
+	    <div class="game-over jq-game-over">
+	        <h1>Game Over</h1>
+	    </div>
+	    <div class="main-wrapper-inner" data-xthreshold="0" id="main-wrapper-inner">
+    	    <div id='countdown' class="jq-countdown"></div>
+    	    <span class="jq-action-todo action-todo">       
+            </span>
+           <!-- <div class="radial-wrapper">
+                <div class="radial-progress">
+                	<div class="circle">
+                		<div class="mask full">
+                			<div class="fill"></div>
+                		</div>
+                		<div class="mask half">
+                			<div class="fill"></div>
+                			<div class="fill fix"></div>
+                		</div>
+                	</div>
+                	<div class="inset"></div>
+                </div-->
+            
+        </div>
+        <div class="bottom-wrapper">
+            <a href="#" class="jq-play-button play-button"> <i class="jq-play-button-text fa fa-play"></i><i class="jq-retry fa fa-refresh fa-spin"></i></a>
+            <a href="#" class="jq-instructions-button instructions-button"><i class="fa fa-question-circle"></i></a>
+    		<div class="jq-score-wrapper score-wrapper">
+    		    <div class="actual-score">
+               		<span>Score</span>
+               		<span class="actual-score-span jq-actual-score"></span>
+               	</div>
+           		<div class="best-score">
+               		<span >Best</span>
+               		<span class="best-score-span jq-best-score"></span>
+           		</div>
+    		</div>
+    	</div>
+	</div>
+		<script type="text/javascript" src="//code.jquery.com/jquery-git.js"></script>
+		<script type="text/javascript" src="js/circular.js"></script>
+	<script type="text/javascript" src="js/gameold.js"></script>
+
+    <script type="text/javascript" src="js/hammer.js"></script>
+</body>
+</html>
+
+
+
+
+<!-- RANDOM ACTIONS  -->
+<!-- REMOVE 3 SECONDS IF WRONG ACTION
+SHARE WITH FRIENDS
+INCLUDE NICE FONT 
+3 circles turning on top of each other, different size, have to make them match
+SPLASH SCREEN
+GAME CENTER
+TAP 4 TIMES IN A SPECIAL CIRCLE TO GET BONUS XP FOR FEW SECS
+EVERY SECOND MAKE THE SHAPE A BIT SMALLER, BOUCING ANIMATIONS
+FACEBOOK
+ADVERTISING-->

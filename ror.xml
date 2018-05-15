@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://gmaxime.com/</title>
+  <link>http://gmaxime.com/</link>
+
+<item>
+     <link>http://gmaxime.com/</link>
+     <title>Maxime Godrie | Portfolio</title>
+     <description>Maxime Godrie Front End Developer based in Sydney, available for freelance work, don't hesitate to contact me.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://gmaxime.com/docs/MaximeGodrieResume.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  

@@ -1,0 +1,66 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>OH WELL</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=0.8">
+		
+	<meta type="description" content="OH well">
+	<meta type="keywords" content="Oh well">
+	
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="main.css" media="all">
+
+</head>
+<body>
+
+	<div class="ohwell">
+		<img src="max.png" alt="" class="well">
+	</div>
+	<h1 class="introducing" style="display:none;">
+		<span>OH</span> WELL
+	</h1>	
+	
+	<audio id="inception-noise">
+		<!--<source src="inception.mp3" type='audio/mpeg; codecs="mp3"'></source>-->
+		<source src="well.m4a" type="audio/mpeg" />
+	    <source src="well.ogg" type="audio/ogg" />
+	</audio>
+	
+	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.1.min.js"></script>
+</body>
+</html>
+
+<script>
+var ohwellsound = document.getElementById('inception-noise');
+ohwellsound.loop = true;
+
+$(document).ready(function() {
+	
+	function position_john(){
+		var top = ($(window).height() / 2) - 200;
+		if(top < 0)
+			top = 0;
+		$(".ohwell").css("margin-top", top+"px");
+	}
+
+
+	$(".well").hover(
+		function(){
+			$(".introducing").fadeIn(1000);
+			ohwellsound.play();
+		},
+		function(){
+			$(".introducing").fadeOut();
+			ohwellsound.stop();
+		}
+	);
+
+	$(window).resize(position_john);
+
+	position_john();
+	
+});
+</script>

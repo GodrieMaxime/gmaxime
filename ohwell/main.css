@@ -1,0 +1,126 @@
+body{
+	background:black;
+	color:white;
+}
+.ohwell{
+	width:400px;
+	height:374px;
+	margin:30px auto 0;
+	z-index: 50;
+}
+
+.ohwell img {
+	width:390px;
+	height: auto;
+	margin: 0 auto;
+}
+.well{
+	z-index: 80;
+}
+
+.cta{
+	position:fixed;
+	bottom:3px;
+	right:3px;
+	opacity:0.5;
+	-moz-transition:opacity 0.5s;
+	-webkit-transition:opacity 0.5s;
+	-o-transition:opacity 0.5s;
+	transition:opacity 0.5s;
+}
+
+.cta:hover{
+	opacity:1;
+}
+
+.cta .jonginn{
+	color:grey;
+	text-decoration:none;
+	font-family:'Lato', sans-serif;
+	padding-bottom:20px;
+}
+
+.introducing{
+	text-align: center;
+	text-transform: uppercase;
+	font-family:'Lato', sans-serif;
+	font-weight: 900;
+	font-size:56px;
+	z-index: 100;
+	cursor:default;
+	position:fixed;
+	bottom:10px;
+	left:0;
+	width:100%;
+}
+
+.introducing span{
+	font-size:30px;
+	display:block;
+	font-weight: normal;
+	color:#aaa;
+}
+
+a.twitesque {
+	height: 16px;
+	display: inline-block;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border: 1px solid #cccccc;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 2px;
+	background:#FEFEFE;
+	vertical-align: top;
+	margin-right:8px;
+	background: -ms-linear-gradient(top, #FEFEFE 0%, #DFDFDF 100%);
+	background: -moz-linear-gradient(top, #FEFEFE 0%, #DFDFDF 100%);
+	background: -o-linear-gradient(top, #FEFEFE 0%, #DFDFDF 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FEFEFE), color-stop(1, #DFDFDF));
+	background: -webkit-linear-gradient(top, #FEFEFE 0%, #DFDFDF 100%);
+	font-weight: bold;
+	font-size: 0.7em;
+	font-family: Arial;
+	line-height:15px;
+
+	color: #333333;
+	text-decoration: none;
+	
+}
+
+a.twitesque:hover {
+	background:#f7f7f7;
+	background: -ms-linear-gradient(top, #f7f7f7 0%, #d9d9d9 100%);
+	background: -moz-linear-gradient(top, #f7f7f7 0%, #d9d9d9 100%);
+	background: -o-linear-gradient(top, #f7f7f7 0%, #d9d9d9 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f7f7f7), color-stop(1, #d9d9d9));
+	background: -webkit-linear-gradient(top, #f7f7f7 0%, #d9d9d9 100%);
+}
+
+a.twitesque.left{
+	margin-right:0px !important;
+}
+
+.ohwell:hover {
+	-webkit-animation: spin 1s infinite linear;
+	-moz-animation: spin 1s infinite linear;
+	-o-animation: spin 1s infinite linear;
+	-ms-animation: spin 1s infinite linear;
+}
+@-webkit-keyframes spin {
+	0% { -webkit-transform: rotate(0deg);}
+	100% { -webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes spin {
+	0% { -moz-transform: rotate(0deg);}
+	100% { -moz-transform: rotate(360deg);}
+}
+@-o-keyframes spin {
+	0% { -o-transform: rotate(0deg);}
+	100% { -o-transform: rotate(360deg);}
+}
+@-ms-keyframes spin {
+	0% { -ms-transform: rotate(0deg);}
+	100% { -ms-transform: rotate(360deg);}
+}

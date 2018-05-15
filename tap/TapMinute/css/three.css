@@ -1,0 +1,382 @@
+  @font-face {
+    font-family: 'norwester';
+    src: url('../fonts/norwester.eot');
+    src: url('../fonts/norwester.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/norwester.woff') format('woff'),
+         url('../fonts/norwester.ttf') format('truetype'),
+         url('../fonts/norwester.svg#langdonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+     font-family: 'norwester';
+     text-transform: uppercase;
+     margin: 0;
+     max-width: 100%;
+     height: 100%;
+     overflow:hidden;
+     background-image: url("../img/congruent_pentagon.png");
+     background-repeat: repeat;
+     background-position: center center;
+}
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow:hidden;
+}
+
+.main-wrapper {
+	max-width: 100%;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	position: relative;
+	overflow:hidden;
+}
+
+.main-wrapper-inner {
+    height: 85%;
+    position: relative;
+}
+
+
+
+.action-todo {
+    display: block;
+    margin-top: -10px;
+    font-size: 65px;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+
+
+#countdown-text {
+   padding-top: 50px; 
+}
+
+.score-wrapper {
+	position: absolute;
+    top: 10px;
+    margin: 0 auto;
+    width: 100%;
+    font-size: 15px;
+}
+
+.best-score {
+    text-align: right;
+    padding-right: 50px;
+    color: black;
+}
+
+.actual-score {
+    padding-left: 50px;
+    float: left;
+    color: black;
+}
+
+.actual-score-span, 
+.best-score-span {
+    color: black;
+    font-size: 20px;
+}
+
+.play-button {
+    display:none;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    left: 0;
+    position: absolute;
+    bottom: 0;
+    font-size: 50px;
+    padding-top: 15px;
+    height: 61px;
+}
+
+.instructions-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999999;
+    color: white;
+    font-size: 30px;
+} 
+
+.instructions-wrapper {
+    width: 200px;
+    position: absolute;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    display: none;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    margin-top: -170px;
+    z-index: 999999;
+    margin-left: -120px;
+    padding: 20px;
+    border: 1px solid black;
+    font-size: 12px;
+}
+
+.instructions-inner-wrapper {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.close-button {
+    position: absolute;
+    top: -17px;
+    right: 5px;
+    display: block;
+    font-size: 15px;
+    color: black;
+}
+
+.game-over {
+    display: none;
+    padding-top: 70px;
+    color: white;
+    position: absolute;
+    width: 100%;
+}
+
+
+.wheel {
+      position: absolute;
+  left: 50%;
+  top: 50%;
+  display: block;
+  float: left;
+  width: 400px;
+  margin-left: -200px;
+  height: 400px;
+  margin-top: -200px;
+}
+.gear-large{
+    position:absolute;
+    top:50px;
+    left:50px;
+    width:300px;
+    height:300px;
+  overflow: hidden;
+  border-radius: 200px;
+}
+
+.gear{
+    position:absolute;
+    top:100px;
+    left:100px;
+    width:200px;
+    height:200px;
+      overflow: hidden;
+    border-radius: 200px;
+}
+.gear-small{
+    
+      position: absolute;
+  top: 150px;
+  left: 150px;
+  width: 100px;
+  height: 100px;
+    overflow: hidden;
+      border-radius: 200px;
+
+}
+.inner-gear {
+    width: 50%;
+    float:left;
+    height: 50%;
+    display:inline-block;
+    position: relative;
+}
+
+.corner {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    background-color: black;
+    visibility: hidden;
+}
+
+.left-top { left: 0; top: 0; }
+.right-top { right: 0; top: 0; }
+.right-bottom { right: 0; bottom: 0; }
+.left-bottom { left: 0; bottom: 0; }
+.paused {
+   -ms-animation-play-state:paused;
+   -o-animation-play-state:paused;
+   -moz-animation-play-state:paused;
+   -webkit-animation-play-state:paused;
+  animation-play-state: paused;
+}
+
+/* Dark background green AFF6CA */
+
+.shade-one {
+    background-color: pink;
+     opacity: 0.5; 
+}
+
+.shade-two {
+    background-color: blue;
+        opacity: 0.2; 
+}
+
+.shade-three {
+    background-color: yellow;
+        opacity: 0.2; 
+}
+
+.shade-four {
+    background-color: green;
+        opacity: 0.2; 
+}
+
+#result , #speed{
+    color: black;
+}
+
+.gear-large {
+  
+     -webkit-animation-name: spin;
+    -webkit-animation-duration: 6000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 6000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 6000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    
+    animation-name: spin;
+    animation-duration: 6000ms;
+    animation-iteration-count: infinite;
+
+}
+
+.gear {
+  
+     -webkit-animation-name: spin-left;
+    -webkit-animation-duration: 4000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name:  spin-left;
+    -moz-animation-duration: 4000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name:  spin-left;
+    -ms-animation-duration: 4000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    
+    animation-name:  spin-left;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+
+}
+
+.gear-small {
+      -webkit-animation-name: spin-left-right;
+    -webkit-animation-duration: 2000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin-left-right;
+    -moz-animation-duration: 2000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin-left-right;
+    -ms-animation-duration: 2000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    
+    animation-name: spin-left-right;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+}
+@-ms-keyframes spin-left-right {
+    from { -ms-transform: rotate(360deg); }
+    to { -ms-transform: rotate(0deg); }
+    to { -ms-transform: rotate(-180deg); }
+    to { -ms-transform: rotate(-360deg); }
+}
+@-moz-keyframes spin-left-right {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(-180deg); }
+    to { -moz-transform: rotate(-360deg); }
+}
+@-webkit-keyframes spin-left-right {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(-180deg); }
+    to { -webkit-transform: rotate(-360deg); }
+}
+@keyframes spin-left-right {
+    from {
+        transform:rotate(360deg);
+    }
+    to {
+        transform:rotate(0deg);
+    }
+     to {
+        transform:rotate(-180deg);
+    }
+    to {
+        transform:rotate(-360deg);
+    }
+}
+@-ms-keyframes spin-left {
+    from { -ms-transform: rotate(360deg); }
+    to { -ms-transform: rotate(0deg); }
+}
+@-moz-keyframes spin-left {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0deg); }
+}
+@-webkit-keyframes spin-left {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0deg); }
+}
+@keyframes spin-left {
+    from {
+        transform:rotate(360deg);
+    }
+    to {
+        transform:rotate(0deg);
+    }
+}
+@-ms-keyframes spin {
+    from { -ms-transform: rotate(0deg); }
+    to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
