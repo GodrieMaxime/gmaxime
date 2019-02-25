@@ -1,9 +1,15 @@
 $(document).ready(function() {
-    var mymap = L.map('map').setView([51.505, -0.09], 13);
-    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-        maxZoom: 18,
-        id: 'mapbox.streets',
-        accessToken: 'your.mapbox.access.token'
-    }).addTo(mymap);
+   // Initialize the map and assign it to a variable for later use
+var map = L.map('map', {
+    // Set latitude and longitude of the map center (required)
+    center: [-33.854816, 151.216454],
+    // Set the initial zoom level, values 0-18, where 0 is most zoomed-out (required)
+    zoom: 5
+});
+
+// adding marker
+var marker = L.marker([-33.854816, 151.216454]).addTo(mymap);
+
+// Create a Tile Layer and add it to the map
+var tiles = new L.tileLayer('http://{s}.tile.stamen.com/watercolor/{z}/{x}/{y}.png').addTo(map);
 });
