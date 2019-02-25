@@ -13,6 +13,9 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS-->
     <link href="css/universal.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+    integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+    crossorigin=""/>
   </head>
   <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" class="top">
     <!-- Preloader-->
@@ -414,7 +417,7 @@
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2">
             <h3>My Services</h3>
-            <p>I have worked on a range of CMS ( Ektron, Sitefinity, Wordpress, Kentico ... ) using all the different new programming methods and frameworks ( HTML5, Sass, Jade, Node.js ... ). I have always been involved in the process of making a website from the very beginning so I can safely help you in many ways.</p>
+            <p>I have worked on a range of CMS (Sitecore, Ektron, Sitefinity, Wordpress, Kentico ... ) using all the different new programming methods and frameworks ( React, VUE.JS, Webpack HTML5, Sass, BEM, Jade, Node.js ... ). I have always been involved in the process of making a website from the very beginning so I can safely help you in many ways.</p>
           </div>
         </div>
         <div class="row">
@@ -462,7 +465,7 @@
         <div class="row">
           <div data-wow-delay=".2s" class="col-lg-4 col-sm-6 wow fadeIn">
             <h4><i class="icon-big icon ion-ios-infinite-outline"></i> Multi-purpose</h4>
-            <p>I have experience in project management, SEO, coding, design ... </p>
+            <p>I have experience in project management, SEO, coding, design, UX ... </p>
           </div>
           <div data-wow-delay=".4s" class="col-lg-4 col-sm-6 wow fadeIn">
             <h4><i class="icon-big ion-ios-sunny-outline"></i> Code friendly</h4>
@@ -568,9 +571,11 @@
     <script src="js/text-rotator.min.js"></script>
     <!-- Custom Theme JavaScript-->
     <script src="js/universal.js"></script>
-       <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/-->
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3E86i8mx1BZDlAaLcknh_mWl4F70i4os"></script>
-        <script src="js/map.js"></script>
+        <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+ integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+ crossorigin=""></script>
+ <script src="js/map.js"></script>
 <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
