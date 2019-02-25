@@ -8,7 +8,7 @@ var map = L.map('map', {
 });
 
 // adding marker
-var marker = L.marker([-33.854816, 151.216454]).addTo(mymap);
+var marker = L.marker([-33.854816, 151.216454]).addTo(map);
 
 // Create a Tile Layer and add it to the map
 var tiles = new L.tileLayer('http://{s}.tile.stamen.com/watercolor/{z}/{x}/{y}.png').addTo(map);
