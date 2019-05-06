@@ -1,0 +1,635 @@
+@media only screen and (min-width: 992px) and (max-width: 5000px) {
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+.info-intro {
+	padding-left: 5px;
+}
+
+.single-team-img {
+	width: 280px;
+	height: 280px;
+}
+.main-menu ul li a {
+padding: 10px 10px;
+}
+.counter-text h2 {
+font-size: 18px;
+}
+.counter-number h1 {
+	font-size: 72px;
+}
+.doctor-feature {
+	padding: 24px 24px;
+}
+.newsletter-form {
+	margin-top: 60px;
+}
+.home-v3 .slider-text,
+.home-v3 .all-slide.owl-theme .owl-controls .owl-dots{
+	width:100%;
+}
+
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+body {
+font-size: 13px;
+line-height: 24px;
+}	
+h1 {
+font-size: 18px;
+}
+h2 {
+font-size: 16px;
+}
+h3 {
+font-size: 14px;
+}	
+.pt-170{padding-top:140px}
+.pt-120{padding-top:90px}
+.pt-100{padding-top:80px}
+.pt-160{padding-top:120px}
+.pb-100{padding-bottom:80px}
+.pb-80{padding-bottom:70px}
+.main-menu ul ul li ul {
+	left: -100%;
+	z-index: -1;
+	width: 100%;
+}
+.info-intro {
+	padding-left: 5px;
+}
+.info-icon {
+font-size: 24px;
+}
+.info-text {
+	padding-left: 30px;
+}
+.info-text a, .info-text span {
+	font-size: 12px;
+}
+.info-text h5 {
+	font-size: 12px;
+}
+.booking-btn a {
+	padding: 22px 8px;
+	font-size: 12px;
+}
+.main-menu ul li a {
+	font-size: 12px;
+	padding: 8px 7px;
+}
+.site-search::before {
+	height: 65px;
+	top: -20px;
+}
+.feature-img {
+	text-align: center;
+	margin-bottom: 60px;
+}
+.single-team-img {
+	width: 212px;
+	height: 212px;
+}
+.team-overlay-text h2 {
+	font-size: 14px;
+}
+.team-overlay-text span {
+	font-size: 12px;
+}
+.team-overlay-text {
+padding-top: 24px;
+}
+.readmore-btn {
+	padding: 12px 30px;
+	font-size: 12px;
+}
+.about-desc {
+	border-right: 0px;
+	padding-right: 0px;
+	margin-bottom: 60px;
+}
+.page-heading h1 {
+	font-size: 32px;
+}
+.breadcrumb-list li a {
+	font-size: 12px;
+}
+.pagehding-sec {
+	padding: 100px 0;
+}
+.team-details-comment {
+	font-size: 16px;
+	line-height: 22px;
+}
+.single-counter {
+	width: 50%;
+	float: left;
+}
+.counter-text h2 {
+	font-size: 18px;
+}
+.counter-number h1 {
+	font-size: 68px;
+}
+.career-form {
+	margin-bottom: 40px;
+}
+.pricing-header {
+padding-bottom: 60px;
+}
+.project-gallery .single-gallery {
+	width:50%;
+	float: left;
+}
+.slider-text h1 {
+font-size: 32px;
+}
+.sec-title h1 {
+	font-size: 32px;
+	line-height: 42px;
+}
+.skill-and-accordion-sec{
+	padding-top:0px;
+}
+.faq-sec {
+	margin-top: 40px;
+}
+.newsletter-icon {
+	margin-top: 0;
+}
+.why-us-img {
+	text-align: center;
+}
+.appoitment-button a {
+padding: 22px 8px;
+}
+.home-v3 .slider-text,
+.home-v3 .all-slide.owl-theme .owl-controls .owl-dots{
+	width:100%;
+}
+.home-v3-department-tab li a {
+	padding: 20px 10px;
+	font-size:14px;
+}
+.home-v3-department-tab li a i {
+	margin-right: 6px;
+}
+.all-testimonial .owl-controls {
+	top: 110%;
+}
+.single-testimonial-v2 .client-comment {
+	font-size: 18px;
+}
+.client-info h2 {
+	font-size: 16px;
+	margin-bottom: 4px;
+}
+.blog-inner h2 a {
+	font-size: 18px;
+}
+.feature-service-v3-inner h2 a {
+	font-size: 18px;
+}
+.department-tab {
+	margin-bottom: 40px;
+}
+.group-title h1 {
+	font-size: 100px;
+}
+.home-v2 .feature-img {
+	margin-top: 0;
+}
+
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+body {
+font-size: 13px;
+line-height: 24px;
+}	
+h1 {
+font-size: 18px;
+}
+h2 {
+font-size: 16px;
+}
+h3 {
+font-size: 14px;
+}	
+.home-v3 .logo {
+	position: relative;
+	top: 8px;
+}
+.pt-170{padding-top:140px}
+.pt-120{padding-top:90px}
+.pt-100{padding-top:80px}
+.pt-160{padding-top:120px}
+.pb-100{padding-bottom:80px}
+.pb-80{padding-bottom:70px}
+.main-menu ul ul li ul {
+	left: -100%;
+	z-index: -1;
+	width: 100%;
+}
+.department-tab {
+	margin-bottom: 40px;
+}
+.info-intro {
+	padding-left: 5px;
+	margin: 10px 0px;
+}
+.info-icon {
+font-size: 24px;
+}
+.info-text {
+	padding-left: 30px;
+}
+.info-text a, .info-text span {
+	font-size: 12px;
+}
+.info-text h5 {
+	font-size: 12px;
+}
+.booking-btn a {
+	padding: 20px 8px;
+	font-size: 12px;
+}
+.main-menu ul li a {
+	font-size: 12px;
+	padding: 8px 7px;
+}
+.site-search::before {
+	height: 65px;
+	top: -20px;
+}
+.feature-img {
+	text-align: center;
+	margin-bottom: 60px;
+}
+.single-team-img {
+	width: 212px;
+	height: 212px;
+}
+.team-overlay-text h2 {
+	font-size: 14px;
+}
+.team-overlay-text span {
+	font-size: 12px;
+}
+.team-overlay-text {
+padding-top: 24px;
+}
+.readmore-btn {
+	padding: 12px 30px;
+	font-size: 12px;
+}
+.about-desc {
+	border-right: 0px;
+	padding-right: 0px;
+	margin-bottom: 60px;
+}
+.page-heading h1 {
+	font-size: 28px;
+	line-height: 36px;
+}
+.breadcrumb-list li a {
+	font-size: 12px;
+}
+.pagehding-sec {
+	padding: 100px 0;
+}
+.logo-area {
+	display: none;
+}
+.contact-intro {
+	text-align: center;
+}
+.nav-menu-area {
+	display: none;
+}
+.mobile-logo {
+	display: block;
+	margin-top: 8px;
+}
+.menu-right-bar {
+	position: relative;
+	right: 60px;
+	margin-top:0px;
+}
+.mobile-logo a {
+	display: inline-block;
+	position: relative;
+	z-index: 9999;
+}
+.doctor-feature-inner:nth-child(3n+1) {
+	clear: both;
+}
+.doctor-feature h2 a {
+	line-height: 24px;
+}
+.sec-title h1 {
+	font-size: 32px;
+	line-height: 42px;
+}
+.border-height {
+	width: 5px;
+	height: 20px;
+}
+.about-desc h2, .office-time h2 {
+	font-size: 18px;
+}
+.about-desc h2 span, .office-time h2 span {
+	color: #3497db;
+	font-size: 24px;
+	margin-right: 5px;
+	position: relative;
+	top: 5px;
+	line-height: 48px;
+}
+.about-short-text p {
+	font-size: 16px;
+}
+.office-time {
+	padding-right: 0;
+}
+.team-details-comment {
+	font-size: 16px;
+	line-height: 22px;
+}
+.single-counter {
+	width: 50%;
+	float: left;
+	margin: 20px 0;
+	text-align: center;
+}
+.counter-text h2 {
+	font-size: 18px;
+}
+.counter-number h1 {
+	font-size: 48px;
+}
+.tab-content-img{
+	margin-bottom:30px;
+}
+.tab-content-img img {
+	width: 100%;
+}
+.counter-number {
+	width: 65px;
+	margin-top: 18px;
+}
+.counter-text {
+padding-left: 70px;
+}
+.career-form {
+	margin-bottom: 40px;
+}
+.single-pricing-inner {
+	padding: 0px 15px;
+}
+.single-pricing-inner:nth-child(2n) .single-pricing {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.pricing-chart-area {
+	margin-top: 0px;
+}
+.pricing-header {
+padding-bottom: 60px;
+}
+.shorttitle{background: #2d3663 none repeat scroll 0 0;
+display: block;
+margin-bottom: 40px;
+padding: 20px;}
+#navbarfiltr.navbar-collapse {
+  border: 0;
+  box-shadow: none;
+  padding:0px
+}
+.navbarsort .navbar-toggle {
+	background: #3497db none repeat scroll 0 0;
+	margin-top: 15px;
+	border-radius: 0px;
+}
+.navbarsort .navbar-toggle .icon-bar {
+  background: #fff;
+}
+.shorttitle h2 {
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 0;
+  display: inline-block;
+  margin-left: 10px;
+}
+#navbar li {
+  display: inline-block;
+  width: 100%;
+}
+#navbar ul li a {
+  padding: 6px 9px;
+}
+.blog-inner h2 a {
+	font-size: 20px;
+}
+.post-date {
+font-size: 12px;
+}
+.slider-text {
+	width: 100%;
+}
+.accordion-right-text {
+	padding-left: 0;
+}
+.accordion-left-img {
+	float: inherit;
+	margin-bottom: 20px;
+}
+.accordion-left-img img {
+	width: 100%;
+}
+.faq-sec .panel-heading a {
+font-size: 14px;
+}
+.faq-sec {
+	margin-top: 40px;
+}
+.skill-and-accordion-sec {
+	padding-top: 0;
+}
+.home-v2 .appoitment-button {
+	display: none;
+}
+.home-v2 .contact-intro {
+	text-align: center;
+}
+.home-v2 .nav-menu-area {
+	display: block;
+}
+.home-v2 .logo-area {
+	display: block;
+}
+.home-v2 .mobile-logo {
+display:none;
+}
+.home-v2 .menu-nav-sec.sticky_menu .logo-area {
+	display: none;
+}
+.home-v2 .menu-nav-sec.sticky_menu .mobile-logo {
+	display: block;
+	margin-top: 14px;
+}
+.home-v3 .slider-text,
+.home-v3 .all-slide.owl-theme .owl-controls .owl-dots{
+	width:100%;
+}
+.home-v3-department-tab li a {
+	padding: 20px 10px;
+	font-size:14px;
+}
+.home-v3-department-tab li a i {
+	margin-right: 6px;
+}
+.all-testimonial .owl-controls {
+	top: 110%;
+}
+.single-testimonial-v2 .client-comment {
+	font-size: 18px;
+}
+.client-info h2 {
+	font-size: 16px;
+	margin-bottom: 4px;
+}
+.blog-inner h2 a {
+	font-size: 18px;
+}
+.feature-service-v3-inner h2 a {
+	font-size: 18px;
+}
+.appoitment-button {
+	display: none;
+}
+.home-v3 .slider-text h1 {
+font-size: 24px;
+}
+.home-v3 .slider-text li a {
+	padding: 16px 26px;
+	font-size: 16px;
+}
+.home-v3 .slider-text li a i {
+	font-size: 16px;
+}
+.home-v3 .nav-menu-area {
+	display: block;
+}
+.home-v3 .mobile-logo {
+	display: none;
+}
+.counter-up-sec {
+	padding: 40px 0px;
+}
+.department-tab-list li a {
+	font-size: 14px;
+}
+.faq-sec .panel-group .panel-heading h4 a::after,
+.faq-sec .panel-group .panel-heading.active h4 a::after {
+display:none;
+}
+.group-title h1 {
+	font-size: 60px;
+}
+.home-v2 .feature-img {
+	margin-top: 0;
+}
+
+}
+@media only screen and (min-width: 0px) and (max-width: 601px) {
+.booking-btn a {
+	padding: 16px 8px;
+}
+.mean-container a.meanmenu-reveal {
+	width: 18px;
+	padding: 11px 12px 11px;
+	margin-top: -48px;
+	height:inherit;
+}
+.site-search::before {
+	height: 65px;
+	top: -20px;
+	display: none;
+}
+.menu-right-bar {
+	display: none;
+}
+.menu-nav-sec {
+	padding-bottom: 12px;
+}
+.project-gallery .single-gallery {
+	width: 100%;
+	float: left;
+}
+.commentar-sec .media-body, .commentar-sec .media-left, .commentar-sec .media-right {
+	display: inherit;
+	width: 100%;
+}
+.commenter-photo {
+	margin-bottom: 20px;
+}
+
+
+}
+
+@media only screen and (min-width: 0px) and (max-width:700px) {
+.testimonial-client-info {
+	display: inline-block;
+	width: 100%;
+	float: inherit;
+	margin-bottom: 20px;
+}
+.all-testimonial .owl-controls {
+	top: 100%;
+	left: 70px;
+}
+.client-comment {
+	margin-bottom: 30px;
+}
+.home-v3-department-tab li {
+	width: 100%;
+}
+
+}
+
+@media only screen and (min-width: 0px) and (max-width:661px) {
+.slider-wraper {
+	width: 430px;
+	height: 430px;
+}
+.slider-text h1 {
+font-size: 32px;
+}
+
+}
+@media only screen and (min-width: 0px) and (max-width:520px) {
+.slider-wraper {
+	width: 330px;
+	height: 330px;
+}
+.slider-text h1 {
+font-size:28px;
+}
+.slider-wraper::before {
+right: 0px;
+}
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 500px) {
+
+
+}

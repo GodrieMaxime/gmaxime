@@ -1,0 +1,5 @@
+/*Input Your Custom CSS Here*/
+/* styling in accordion */
+.panel-content ul {
+    list-style-type: disc;
+}
