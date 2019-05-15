@@ -1158,7 +1158,7 @@ overflow: hidden;
 }
 .faq-sec .panel-title a::before {
 	float: right !important;
-	font-family: FontAwesome;
+	font-family: "Font Awesome 5 Free";
 	content: "\f067";
 	color: #3497db;
 	font-weight: bold;
@@ -1171,7 +1171,7 @@ overflow: hidden;
 }
 .faq-sec .panel-group .panel-heading.active h4 a::before {
 	float: right !important;
-	font-family: FontAwesome;
+	font-family: "Font Awesome 5 Free";
 	content: "\f068";
 	color: #fff;
 	font-weight: bold;
