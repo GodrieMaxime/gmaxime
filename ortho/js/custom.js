@@ -154,7 +154,7 @@ $(document).ready(function(){
 		scrollUp
 		============================*/	
 		$.scrollUp({
-			scrollText: '<i class="fa fa-long-arrow-up"></i>',
+			scrollText: '<i class="fa fa-arrow-up"></i>',
 			easingType: 'linear',
 			scrollSpeed: 900,
 			animation: 'fade'
