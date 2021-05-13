@@ -502,59 +502,59 @@
         /* 2. Form Processor
         -------------------------------------------------------------------*/
         // Add form message container
-        $('form').append('<div class="form-msg" style="display:none"><span></span><a href="#"></a></div>');
+        // $('form').append('<div class="form-msg" style="display:none"><span></span><a href="#"></a></div>');
 
-        $('form').submit(function(e){
-            e.preventDefault();
+        // $('form').submit(function(e){
+        //     e.preventDefault();
 
-            var $that           = $(this),
-                checkEmpty      = false,
-                formMessages    = config.formMessages,
-                $msgForm        = $that.find('.form-msg'),
-                $msgText        = $msgForm.find('span'),
-                emailField      = $that.find('input[name="email"]').val(),
-                postData        = $that.serialize();
+        //     var $that           = $(this),
+        //         checkEmpty      = false,
+        //         formMessages    = config.formMessages,
+        //         $msgForm        = $that.find('.form-msg'),
+        //         $msgText        = $msgForm.find('span'),
+        //         emailField      = $that.find('input[name="email"]').val(),
+        //         postData        = $that.serialize();
 
-            $msgForm.removeClass('fail success');
-            $msgText.text('');
+        //     $msgForm.removeClass('fail success');
+        //     $msgText.text('');
 
-            // Check if all fields are not empty
-            $that.find('.required').each(function() {
-                if($.trim($(this).val()) === '' || $(this).is(':checkbox:not(:checked)') ) {
-                    checkEmpty = true;
-                }
-            });
+        //     // Check if all fields are not empty
+        //     $that.find('.required').each(function() {
+        //         if($.trim($(this).val()) === '' || $(this).is(':checkbox:not(:checked)') ) {
+        //             checkEmpty = true;
+        //         }
+        //     });
 
-            // Stop all if there is at least one empty field
-            if ( checkEmpty ) {
-                $msgText.text(formMessages.emptyFields).parent().addClass('fail').fadeIn('fast');
-                return false;
-            }
+        //     // Stop all if there is at least one empty field
+        //     if ( checkEmpty ) {
+        //         $msgText.text(formMessages.emptyFields).parent().addClass('fail').fadeIn('fast');
+        //         return false;
+        //     }
 
-            // Check if the email is valid. Otherwise stop all
-            if ( ! emailValidator(emailField) ) {
-                $msgText.text(formMessages.failEmail).parent().addClass('fail').fadeIn('fast');
-                return false;
-            }
+        //     // Check if the email is valid. Otherwise stop all
+        //     if ( ! emailValidator(emailField) ) {
+        //         $msgText.text(formMessages.failEmail).parent().addClass('fail').fadeIn('fast');
+        //         return false;
+        //     }
 
-            $that.find('.submit').after('<span class="form-loader" />');
+        //     $that.find('.submit').after('<span class="form-loader" />');
 
-            // Send data to the corresponding processing file
-            $.post($that.attr('action'), postData, function(result){
-                if (result == 'success') {
-                    $msgText.text(formMessages.sent);               // success
-                    $that.trigger('reset');                         // reset all form fields
-                } else {
-                    $msgText.text(formMessages.fail);               // fail
-                }
-            }).fail(function() {
-                $msgText.text(formMessages.fail);                   // fail (problem with sending data)
-            }).always(function(result) {
-                $that.find('.form-loader').remove();
-                $msgForm.addClass(result).fadeIn('fast');           // show form message
-            });
+        //     // Send data to the corresponding processing file
+        //     $.post($that.attr('action'), postData, function(result){
+        //         if (result == 'success') {
+        //             $msgText.text(formMessages.sent);               // success
+        //             $that.trigger('reset');                         // reset all form fields
+        //         } else {
+        //             $msgText.text(formMessages.fail);               // fail
+        //         }
+        //     }).fail(function() {
+        //         $msgText.text(formMessages.fail);                   // fail (problem with sending data)
+        //     }).always(function(result) {
+        //         $that.find('.form-loader').remove();
+        //         $msgForm.addClass(result).fadeIn('fast');           // show form message
+        //     });
 
-        });
+        // });
 
         /* 3. Close form messages
         -------------------------------------------------------------------*/

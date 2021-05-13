@@ -1798,7 +1798,7 @@ input[type=checkbox]:checked + .checkbox-replacer:before {
 
 .radio label {
     display: inline-block;
-    margin-right: 40px;
+    margin-right: 20px;
     text-align: center;
     cursor: pointer;
 }
@@ -1862,7 +1862,6 @@ input[type=radio]:checked + .radio-replacer {
 .radio.image-radio label > span > span {
     position: relative;
     display: inline-block;
-    padding: 7px 15px;
     font-weight: 700;
 }
 
