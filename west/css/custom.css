@@ -23,3 +23,11 @@
     max-width: 400px;
     margin-bottom: 30px;
 }
+
+.client-img {
+    text-align: center;
+    max-height: 100px;
+    width: auto;
+    margin: 0 auto 20px auto;
+    display: block;
+}
