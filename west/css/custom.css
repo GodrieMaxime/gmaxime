@@ -15,6 +15,15 @@
     max-width: 360px;
     margin-top: 50px;
 }
+@media only screen and (max-width : 992px) {
+    #brand #logo img{
+        max-width: 50%;
+        margin-top: 50px;
+    }
+    .studio-logo {
+        display: none !important;
+    }
+}
 #brand .info img {
     width: 70px;
 }
